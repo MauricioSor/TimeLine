@@ -1,8 +1,9 @@
 body {
-    background:black url(./tucuman.jpg) center fixed  no-repeat;
     object-fit: contain;
     background-size: contain;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: radial-gradient(circle, #004a67 40%, #0e020f 100%);
+
     
 }
 #timeline {
