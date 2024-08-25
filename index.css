@@ -39,7 +39,12 @@ body {
     -webkit-backdrop-filter:blur(5px);
     border: 1px solid rgba(255,255,255,0.3);
 }
-
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin-top: 50px;
+}
 .child:nth-child(even)::before {
     content: '';
     position: absolute;
