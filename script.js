@@ -1,35 +1,36 @@
 const mensajes = [
+ 
     {
-        name: "1950s: Nacimiento de la programación ",
-        description: "Es un hito crucial en la historia de la ingeniería de software, ya que durante este periodo se desarrollaron los primeros lenguajes de programación y herramientas que hicieron posible la creación de software de manera más eficiente y efectiva."
+        name: "1950s: Los Primeros Lenguajes de Programación ",
+        description: "La década de 1950 fue un período crucial en la historia del software, marcado por el desarrollo de los primeros lenguajes de programación de alto nivel. Estos lenguajes permitieron a los programadores escribir instrucciones en un formato más cercano al lenguaje humano, en lugar de utilizar directamente el lenguaje de máquina, que era difícil de manejar y propenso a errores. Este avance hizo que la programación fuera más accesible y facilitó el desarrollo de aplicaciones más complejas. De estos lenguajes destacaban FORTRAN en 1957 y LISP en 1958  "
     },
     {
-        name: "1960s: Formalización y Crisis del software",
-        description: "Fue un periodo crucial en la evolución de la ingeniería de software, caracterizado por la formalización de métodos de desarrollo y el surgimiento de la Crisis del software. Estos eventos marcaron un punto de inflexión en la manera en que se abordaba el desarrollo de software, resaltando la necesidad de prácticas más disciplinadas y estructuradas"
+        name: "1960s - Sistemas Operativos y Expansión de Lenguajes",
+        description: "La década de 1960 fue caracterizado por la consolidación de los sistemas operativos y la expansión de lenguajes de programación que definirían la era moderna del software. Durante estos años, los sistemas operativos evolucionaron para gestionar eficientemente los recursos de hardware y facilitar el desarrollo de software, mientras que los lenguajes de programación se diversificaron y expandieron para atender a diferentes necesidades de la industria y la academia.  "
     },
     {
-        name: "1970s: Estandarización y Métodos de Desarrollo",
-        description: "La década de 1970 fue un periodo de consolidación en la ingeniería de software, marcado por la estandarización de lenguajes y herramientas y el surgimiento de métodos de desarrollo más estructurados. Este fue un momento clave en el que la industria comenzó a adoptar enfoques más sistemáticos y disciplinados para el desarrollo de software, estableciendo las bases para las prácticas modernas"
+        name: "1970s - Bases de Datos y Software Empresarial",
+        description: "La década de 1970 fue un periodo de de gran innovación en la informática, marcado por la introducción y expansión de sistemas de bases de datos relacionales y el desarrollo de software empresarial. Estos avances transformaron cómo las organizaciones almacenaban, accedían y gestionaban grandes cantidades de datos, y cómo utilizaban el software para automatizar y optimizar procesos comerciales. Estos avances no solo mejoraron la eficiencia interna de las empresas, sino que también sentaron las bases para la transformación digital que definiría las siguientes décadas."
     },
     {
-        name: "1980s: Orientación a Objetos y Herramientas CASE",
-        description: "La década de 1980 fue un periodo de innovación y consolidación en la ingeniería de software, caracterizado por la adopción generalizada de la programación orientada a objetos (OOP) y el desarrollo de herramientas CASE. Estos avances transformaron la manera en que se diseñaba, desarrolla y gestiona el software, introduciendo conceptos y herramientas que siguen siendo fundamentales en la industria hoy en dia"
+        name: "1980s - PC y Software Comercial",
+        description: "Esta década estuvo marcada por la popularización de la computadora personal (PC) y el surgimiento de la industria del software comercial. La PC se convirtió en una herramienta cotidiana en hogares y oficinas, mientras que el software comercial surgió como una industria clave que impulsaría la economía global en las décadas siguientes. Estos avances no solo hicieron que la tecnología fuera más accesible, sino que también establecieron las bases para la era digital moderna. "
     },
     {
-        name: "1990s: Internet y Software Abierto",
-        description: "La década de 1990 fue un período revolucionario en la historia de la ingeniería de software, marcada por la explosión de Internet y el crecimiento del movimiento de software abierto. Estos avances no sólo transformaron la manera en que se desarrollaba y distribuía el software, sino que también cambiaron profundamente la forma en que las personas se conectaban y trabajaban con la tecnología."
+        name: "1990s - La Era de Internet",
+        description: "Durante estos años, Internet pasó de ser una herramienta utilizada principalmente por académicos y militares a convertirse en una red global accesible para el público en general.Estos desarrollos no solo cambiaron la forma en que las personas se conectan y se comunican, sino que también establecieron las bases para la economía digital y la sociedad en red del siglo XXI. De este hito destacamos: World Wide Web(WWW)-1991, permitió la creación y navegación de páginas web interconectadas mediante hipervínculos, haciendo que la informacion en internet fuera fácilmente accesible."
     },
     {
-        name: "2000s: Agilidad y Servicios Web",
-        description: "La década de 2000 fue un período de gran innovación y cambio en la ingeniería de software, caracterizado por la adopción generalizada de metodologías ágiles y la creciente importancia de los servicios web. Estos desarrollos redefinieron cómo se planificaba, desarrollaba y entregaba el software, mejorando la capacidad de respuesta a las necesidades del mercado y facilitando la integración de sistemas a gran escala"
+        name: "2000s - Software de Código Abierto y Móvil",
+        description: "El movimiento de software de código abierto, que había comenzado en las décadas anteriores, se consolidó en los años 2000. El software de código abierto es aquel cuyo código fuente está disponible para que cualquiera lo use, modifique y distribuya libremente. Este modelo contrastaba con el software propietario, donde el código fuente era cerrado y controlado por una sola empresa. La década de 2000 también vio el surgimiento del software móvil como una fuerza dominante, impulsada por la rápida adopción de teléfonos inteligentes y dispositivos móviles. El software móvil transformó la forma en que las personas acceden a la información, se comunican y realizan tareas diarias. De este hito destacamos: Linux, Firefox,Git, Android, y el lanzamiento de IPhone"
     },
     {
-        name: "2010s: DevOps, Microservicios y AI",
-        description: "La década de 2010 fue un período crucial para la ingeniería de software, marcado por la convergencia de prácticas de DevOps, la adopción masiva de microservicios y el crecimiento exponencial de la inteligencia artificial (AI). Estos desarrollos no solo transformaron la manera en que se construye y despliega software, sino que también ampliaron las capacidades de las aplicaciones, haciéndolas más inteligentes y adaptativas."
+        name: "2010s - La Nube y la Inteligencia Artificial",
+        description: "Esta década de 2010 fue marcada por la adopción masiva de la computación en la nube y los avances exponenciales en inteligencia artificial (IA). La computación en la nube se refiere al uso de servidores remotos en Internet para almacenar, gestionar y procesar datos, en lugar de utilizar servidores locales o computadoras personales. La década de 2010 fue testigo de avances significativos en inteligencia artificial (IA) y machine learning (ML), impulsados por el aumento en la disponibilidad de datos, la mejora en el hardware (especialmente GPUs), y el desarrollo de nuevos algoritmos. De esta decada se destaca, de parte de computación en la nube: AWS,Microsoft Azure y Google Cloud Platform. De parte de la inteligencia artificial se destaca: Deep Learning, Asistentes Virtuales, IA en la Medicina, Autos Autónomos"
     },
     , {
-        name: "2020s: Software como Infraestructura Global",
-        description: "En la década de 2020, el software ha evolucionado hasta convertirse en la columna vertebral de la infraestructura global, penetrando prácticamente en todos los aspectos de la vida moderna. Este hito refleja cómo el software no solo ha transformado industrias enteras, sino que también ha redefinido la manera en que vivimos, trabajamos y nos comunicamos, consolidándose como un componente esencial en la economía y la sociedad"
+        name: "2020s - Automatización y Machine Learning",
+        description: "La década de 2020 ha sido testigo de una aceleración en la adopción de la automatización y el machine learning (ML) en una amplia gama de industrias. Estos avances están redefiniendo el panorama tecnológico, impulsando la eficiencia, la innovación y la personalización a niveles sin precedentes.La automatización inteligente se refiere al uso de tecnologías avanzadas, como la inteligencia artificial (IA), el machine learning y la robótica, para automatizar tareas complejas que anteriormente requerían intervención humana. A diferencia de la automatización tradicional, que se basa en reglas predefinidas, la automatización inteligente utiliza capacidades cognitivas para aprender y adaptarse a diferentes situaciones.Machine learning, un subcampo de la inteligencia artificial, ha avanzado de manera significativa en la década de 2020, con modelos cada vez más potentes que están siendo utilizados en una variedad de aplicaciones. Desde la personalización hasta la predicción, el ML se ha integrado en prácticamente todos los aspectos de la tecnología moderna."
     },
     {
         name: "2020s: Software como Infraestructura Global",
