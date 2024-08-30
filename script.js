@@ -31,13 +31,17 @@ const mensajes = [
         name: "2020s: Software como Infraestructura Global",
         description: "En la década de 2020, el software ha evolucionado hasta convertirse en la columna vertebral de la infraestructura global, penetrando prácticamente en todos los aspectos de la vida moderna. Este hito refleja cómo el software no solo ha transformado industrias enteras, sino que también ha redefinido la manera en que vivimos, trabajamos y nos comunicamos, consolidándose como un componente esencial en la economía y la sociedad"
     },
+    {
+        name: "2020s: Software como Infraestructura Global",
+        description: "En la década de 2020, el software ha evolucionado hasta convertirse en la columna vertebral de la infraestructura global, penetrando prácticamente en todos los aspectos de la vida moderna. Este hito refleja cómo el software no solo ha transformado industrias enteras, sino que también ha redefinido la manera en que vivimos, trabajamos y nos comunicamos, consolidándose como un componente esencial en la economía y la sociedad"
+    },
     
 ]
 
 
 var html = "";
 mensajes.forEach(e => {
-    html += "<div class='child'><div class='content'><h4>" + e.name + "</h4><p>" + e.description + "</p></div></div>"
+    html += "<div class='child'><div class='content'><h4 class='fw-bold text-center'>" + e.name + "</h4><p>" + e.description + "</p></div></div>"
 })
 timeline.innerHTML = html
 
